@@ -1,0 +1,35 @@
+Documentação:
+  https://www.dofactory.com/net/builder-design-pattern
+
+Design Patterns 
+  - Soluções conhecidas para problemas conhecidos
+  - Design Patterns são padrões de código para solução de problemas conhecidos.
+  - O objetivo é não reinventar a roda e aplicar uma solução com um bom design de código.
+  - O conceito de padrões foi introduzido por 4 desenvolvedores intitulados
+    "Gang of Four" (GoF) e hoje conta com 23 padrões fundamentais.
+	
+	
+Creational Patterns:
+  - Abstract Factory: Cria uma instância de diversas famílias de classes.
+  - Factory Method: Cria uma instância de diversas derivações de classes.
+  - Singleton: Cria uma única instância que será utilizada por os recursos.
+  
+Structural Patterns
+  - Adapter: Compatibiliza objetos de interfaces diferentes
+  - Facade: Uma única classe que representa um subsistema
+  - Composite: Compartilha um objeto em estruturas de árvores que representam hierarquias
+    .Muito ligado com a recursividade
+	
+Behavioural Patterns
+  - Command: Encapsula um command request em um objeto
+  - Strategy: Encapsula um algoritimo dentro de uma classe
+  - Observer: Uma forma de notificar mudanças a uma série de classes
+
+Evite o patternite
+  - "Patternite é o mal que o desenvolvedor
+	sofre quando deseja aplicar todo os
+	patterns conhecidos apenas para praticar
+	ou por entender que quanto mais
+	patterns melhor."	
+  - Não utilize sem conhecer
+  - Apensar de conhecer só utilize se necessário

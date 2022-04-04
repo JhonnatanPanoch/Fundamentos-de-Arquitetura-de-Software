@@ -1,0 +1,65 @@
+SOLID é um acrônimo dos cinco primeiros princípios da programação orientada
+a objetos e design de código identificados por Robert C. 
+Martin (ou Uncle Bob) por volta do ano 2000.
+
+
+Os princípios SOLID devem ser aplicados para se obter os
+benefícios da orientação a objetos, tais como:
+ - Seja fácil de se manter, adaptar e se ajustar às alterações de escopo;
+ - Seja testável e de fácil entendimento;
+ - Seja extensível para alterações com o menor esforço necessário;
+ - Que forneça o máximo de reaproveitamento;
+ - Que permaneça o máximo de tempo possível em utilização.
+
+
+Utilizando os princípios SOLID é possível evitar problemas muito
+comuns:
+  - Dificuldade na testabilidade / criação de testes de unidade;
+  - Código macarrônico, sem estrutura ou padrão;
+  - Dificuldades de isolar funcionalidades;
+  - Duplicação de código, uma alteração precisa ser feita em N pontos;
+  - Fragilidade, o código quebra facilmente em vários pontos após
+  alguma mudança.
+
+
+SRP - Single Responsability Principle
+ - "Uma classe deve ter um, e apenas um, motivo para ser modificada".
+"Todos os outros princípios funcionam para atender o SRP"
+.Classes devem ter apenas uma responsabilidade;
+.O conceito do SRP é extensível para métodos, camadas e etc.
+
+
+OCP – Open Closed Principle
+ - "Entidades de software (classes, módulos, funções, etc) 
+devem estar abertas para extensão, mas fechadas para modificação."
+é possível aplicar o conceito de Open/Closed:
+ Utilizando Extension Methods em classes independentes.
+ Criando super classes abstratas que são herdadas e especializadas pelas demais.
+ Fazendo uso de herança, abstração, encapsulamento e polimorfismo.
+
+
+
+LSP - Liskov Substituition Principle
+ - "Se q(x) é uma propriedade demonstrável dos objetOS x de tipo T.
+Então q(y) deve ser verdadeiro para objetos y de tipo S onde Sé um subtipo de T."
+"Subclasses devem ser substituíveis por suas Superclasses."
+"Se nada como um pato, voa como um pato, porém precisa de baterias, provavelmente você possui um problema de abstração"
+.O principal objetivo do LSP é questionar se o desenvolvedor está realizando uma herança dentro dos padrões de design e abstração ou está apenas seguindo a linha do "é um.." 
+
+
+
+ISP - Interface Segregation Principle
+ - "Clientes não devem ser forçados a depender de métodos que não usam."
+.Muitas interfaces específicas são melhores do que uma interface única.
+.Clientes não devem ser forçados a depender de métodos que não usam.
+.Programe voltado à interface, não à implementação.
+
+
+
+DIP - Dependency Inversion Principle
+ - "Módulos de alto nível não devem depender de módulos de baixo nível. 
+   Ambos devem depender de abstrações; Abstrações não devem depender de detalhes. 
+   Detalhes devem depender de abstrações."
+.Dependa de uma abstração e não de uma implementação.
+.Injeção de dependencia é uma forma de aplicar o DIP
+.Um dos principais benefícios da injeção de dependência via construtor é a testabilidade do código.

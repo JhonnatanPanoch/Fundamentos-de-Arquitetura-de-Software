@@ -1,0 +1,38 @@
+benchmark: https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
+Ninject is definitely the slowest container.
+
+MEF, LinFu and Spring.NET are faster than Ninject, but still pretty slow.
+AutoFac, Catel and Windsor come next, followed by StructureMap, Unity and LightCore. A disadvantage of Spring.NET is, that can only be configured with XML.
+
+DryIoc, LightInject and Simple Injector offer a very good performance combined with support for advanced scenarios like interception and generic decorators. They also provide extensive documentation and support all important platforms.
+
+___________________________________________________________________
+
+Tipos:
+
+Transient
+Serviços temporários de tempo de vida são criados cada vez que são solicitados pelo contêiner de serviço. Esse tempo de vida funciona melhor para serviços leves e sem estado. Registrar serviços transitórios com AddTransient.
+Em aplicativos que processam solicitações, os serviços transitórios são descartados no final da solicitação.
+
+Scoped
+Para aplicativos Web, um tempo de vida com escopo indica que os serviços são criados uma vez por solicitação do cliente (conexão). Registrar serviços com escopo com AddScoped.
+Em aplicativos que processam solicitações, os serviços com escopo são descartados no final da solicitação.
+Ao usar Entity Framework Core, o método AddDbContext de extensão registra tipos DbContext com um tempo de vida com escopo por padrão.
+    
+Singleton
+Os serviços de tempo de vida singleton são criados:
+Na primeira vez que eles são solicitados.
+Pelo desenvolvedor, ao fornecer uma instância de implementação diretamente para o contêiner. Essa abordagem raramente é necessária.
+Cada solicitação subsequente da implementação do serviço do contêiner de injeção de dependência usa a mesma instância. Se o aplicativo exigir comportamento singleton, permita que o contêiner de serviço gerencie o tempo de vida do serviço. Não implemente o padrão de design singleton e forneça código para descartar o singleton. Os serviços nunca devem ser descartados pelo código que resolveu o serviço do contêiner. Se um tipo ou fábrica for registrado como singleton, o contêiner descartará o singleton automaticamente.
+
+Registre serviços singleton com AddSingleton. Os serviços singleton devem ser thread-safe e geralmente são usados em serviços sem estado.
+
+Em aplicativos que processam solicitações, os serviços singleton são descartados quando o ServiceProvider é descartado no desligamento do aplicativo. Como a memória não é liberada até que o aplicativo seja desligado, considere o uso de memória com um serviço singleton.
+
+___________________________________________________________________
+
+Práticas que devem ser evitadas:
+
+Aplicar o padrão Service Locator
+Utilizar Property Injection
+Resolver múltiplas classes para a mesma interface.

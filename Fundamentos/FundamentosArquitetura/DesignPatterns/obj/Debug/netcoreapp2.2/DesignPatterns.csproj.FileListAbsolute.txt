@@ -1,0 +1,13 @@
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\bin\Debug\netcoreapp2.2\DesignPatterns.deps.json
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\bin\Debug\netcoreapp2.2\DesignPatterns.runtimeconfig.json
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\bin\Debug\netcoreapp2.2\DesignPatterns.runtimeconfig.dev.json
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\bin\Debug\netcoreapp2.2\DesignPatterns.dll
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\bin\Debug\netcoreapp2.2\DesignPatterns.pdb
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.AssemblyInfo.cs
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.dll
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.pdb
+C:\Users\f0fp1165\Desktop\arquitetura\Fundamentos\FundamentosArquitetura\DesignPatterns\obj\Debug\netcoreapp2.2\DesignPatterns.genruntimeconfig.cache
